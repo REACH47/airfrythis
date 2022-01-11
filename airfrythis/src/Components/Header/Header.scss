@@ -1,4 +1,9 @@
+@use "../../styles/partials/typography" as *;
+
 .header-title {
+  font-family: Monoton;
+  font-size: 8rem;
+  font-weight: lighter;
   padding: 1.5rem;
   display: flex;
   justify-content: center;
