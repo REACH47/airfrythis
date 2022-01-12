@@ -25,7 +25,9 @@ function Form() {
           placeholder="This is a input"
         />
 
-        <button>POST</button>
+        <button className="form__button" onSubmit={handleOnSubmit}>
+          POST
+        </button>
       </form>
     </div>
   );
