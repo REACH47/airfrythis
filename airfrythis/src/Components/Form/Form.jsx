@@ -24,6 +24,8 @@ function Form() {
           type="text"
           placeholder="This is a input"
         />
+
+        <button>POST</button>
       </form>
     </div>
   );
