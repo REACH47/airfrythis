@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import "./FryerCard.scss";
 
 function FryerCard() {
+  const [submitValue, setSubtmitValue] = useState("");
   const handleOnSubmit = (e) => {
     e.preventDefault();
   };
