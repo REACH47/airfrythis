@@ -17,7 +17,15 @@
   }
 
   &__input:focus {
-    border: none;
     outline: none;
+  }
+
+  &__button {
+    color: #f1fa8c;
+    background-color: #282a36;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin: 1rem;
   }
 }
