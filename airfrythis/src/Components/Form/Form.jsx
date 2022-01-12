@@ -1,6 +1,9 @@
 import React from "react";
 
 function Form() {
+  const handleOnSubmit = (e) => {
+    e.preventDefault();
+  };
   return (
     <div>
       <form action="submit">
