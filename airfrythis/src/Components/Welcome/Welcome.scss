@@ -1,1 +1,30 @@
 @use "../../styles/partials/typography" as *;
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    font-family: Monoton;
+    font-size: 8rem;
+    font-weight: 300;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    color: #bd93f9;
+  }
+
+  &__enter-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__enter {
+    color: #ff5555;
+    background-color: #282a36;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+  }
+}
