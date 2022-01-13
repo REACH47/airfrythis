@@ -1,4 +1,6 @@
 import React from "react";
+import Header from "../Header/Header";
+import FryerCard from "../FryerCard/FryerCard";
 import "./Form.scss";
 
 function Form() {
@@ -8,6 +10,7 @@ function Form() {
 
   return (
     <div className="form">
+      <Header />
       <form className="form__container" action="submit">
         <input
           className="form__input"
@@ -29,6 +32,8 @@ function Form() {
           POST
         </button>
       </form>
+
+      <FryerCard />
     </div>
   );
 }
