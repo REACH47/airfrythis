@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Welcome.scss";
 
 function Welcome() {
@@ -7,7 +8,9 @@ function Welcome() {
       <div className="welcome">
         <h1 className="welcome__title">AIR FRY THIS</h1>
         <div className="welcome__enter-container">
-          <button className="welcome__enter">start frying</button>
+          <Link to="/form">
+            <button className="welcome__enter">start frying</button>
+          </Link>
         </div>
       </div>
     </>
