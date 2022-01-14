@@ -3,6 +3,10 @@
 .welcome {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
 
   &__title {
     font-family: Monoton;
