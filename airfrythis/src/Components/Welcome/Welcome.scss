@@ -16,6 +16,14 @@
     display: flex;
     justify-content: center;
     color: #bd93f9;
+    transition: transform 0.3s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(-100%);
+    animation: slidein 1s;
+    animation-fill-mode: forwards;
   }
 
   &__enter-container {
