@@ -32,3 +32,13 @@
     margin: 1rem;
   }
 }
+
+@keyframes slidein {
+  from {
+    transform: translateY(-100%);
+  }
+
+  to {
+    transform: translateY(100%);
+  }
+}
