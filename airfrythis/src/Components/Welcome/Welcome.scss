@@ -38,6 +38,8 @@
     border-radius: 5px;
     padding: 0.5rem 1rem;
     margin: 1rem;
+    animation: slidein 1s;
+    animation-fill-mode: forwards;
   }
 }
 
