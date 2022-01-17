@@ -33,13 +33,22 @@
 
   &__enter {
     color: #ff5555;
-    background-color: #282a36;
+    background-color: #44475a;
     border: none;
     border-radius: 5px;
     padding: 0.5rem 1rem;
     margin: 1rem;
     animation: slidein 1s;
     animation-fill-mode: forwards;
+  }
+
+  &__enter:hover {
+    transition: 0.5s;
+    background-color: #282a36;
+  }
+
+  &__enter:visited {
+    background-color: #bd93f9;
   }
 }
 
